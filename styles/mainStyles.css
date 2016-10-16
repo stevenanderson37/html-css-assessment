@@ -95,9 +95,6 @@
     background: url(../img/ham-menu.png);
     background-color: rgba(255, 255, 255, 0);
     background-size: 100%;
-    /*border-style: solid;
-    border-width: 3px;
-    border-color: white;*/
     margin-top: -75px;
     margin-left: 40px;
   }
@@ -122,11 +119,11 @@
   }
 
   .main-text-box {
-    margin-top: 28vh;
+    margin-top: 30.25vh;
   }
 
   .white-circle {
-    margin: 25vh auto;
+    margin: 22.9vh auto;
   }
 }
 
