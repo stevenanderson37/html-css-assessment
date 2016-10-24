@@ -127,4 +127,61 @@
   }
 }
 
+@media (max-width: 415px) {
+  .ham-button {
+    width: 65px;
+    height: 65px;
+    left: 0;
+    top: 0;
+    border-radius: 75%;
+    background: url(../img/ham-menu.png);
+    background-color: rgba(255, 255, 255, 0);
+    background-size: 100%;
+    margin-top: -75px;
+    margin-left: 30px;
+  }
+
+  .main-text-box {
+    margin-top: 28vh;
+    font-size: 110px;
+  }
+
+  .sub-text-box {
+    font-size: 25px;
+  }
+
+  .white-circle {
+    margin: 22.9vh auto;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .ham-button {
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    border-radius: 75%;
+    background: url(../img/ham-menu.png);
+    background-color: rgba(255, 255, 255, 0);
+    background-size: 100%;
+    margin-top: -75px;
+    margin-left: 20px;
+  }
+
+  .main-text-box {
+    margin-top: 27vh;
+    font-size: 110px;
+  }
+
+  .sub-text-box {
+    font-size: 25px;
+  }
+
+  .white-circle {
+    margin: 20vh auto;
+  }
+
+
 }
