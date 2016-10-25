@@ -68,9 +68,11 @@
 }
 
 .white-circle:hover {
-  box-shadow: 0px 0px 3px 4px rgba(155, 130, 40, .5);
-  opacity: .75;
+  /*box-shadow: 0px 0px 3px 4px rgba(155, 130, 40, .5);*/
+  /*opacity: .75;*/
   cursor: pointer;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
 }
 
 @media (max-width: 645px) {
@@ -110,12 +112,16 @@
   .background-container img:hover {
     opacity: .75;
     cursor: pointer;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
   }
 
   .ham-button:hover {
-    box-shadow: 0px 0px 3px 4px rgba(255, 255, 255, .5);
-    opacity: .75;
+    /*box-shadow: 0px 0px 3px 4px rgba(255, 255, 255, .5);*/
+    /*opacity: .75;*/
     cursor: pointer;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
   }
 
   .main-text-box {
